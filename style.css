@@ -10,8 +10,70 @@ body {
    font-family: "Oswald", sans-serif;
 }
 
+a {
+text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
 
-h2 {
-  color: red;
+
+
+footer {
+  background-color: #151515;
+  padding: 100px 72px 40px 72px;
+  color: #fff;
+}
+.footer_doc {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.footer_doc p {
+  font-size: 16px;
+}
+
+.footer_right {
+  display: flex;
+  gap: 48px;
+}
+.footer_right h6 {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -2%;
+  margin-bottom: 20px;
+}
+.footer_link {
+  max-width: 200px;
+}
+.footer_link ul li a {
+  color: #b1a6a6;
+}
+.footer_contact {
+  max-width: 220px;
+}
+
+.footer_right_cont{
+  display: flex;
+  gap: 8px;
+}
+
+/* copyright */
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.copyright_right_side {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
