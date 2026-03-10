@@ -188,6 +188,77 @@ nav {
   margin-bottom: 100px;
   text-align: center;
 }
+/* Choose Fintrixx */
+#choose_fintrixx {
+  background-color: #151515;
+  padding: 100px 0;
+}
+#choose_fintrixx .section_top {
+  justify-content: left;
+  color: #fff;
+
+}
+.choose_fintrixx {
+  display: flex;
+  justify-content: space-between;
+}
+.choose_fintrixx_left h2{
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2%;
+  font-weight: 600;
+  color: #fff;
+}
+.choose_fintrixx_left h2 span{
+color: #ffa500;
+}
+.choose_fintrixx_left p{
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -2%;
+  font-weight: 400;
+  color: #d3d3d3;
+  margin-top: 10px;
+}
+.choose_fintrixx_left {
+  margin-top: 40px;
+  
+}
+.choose_fintrixx_left button {
+  box-shadow: 3px 3px 3px 0 #fff;
+}
+/*  */
+
+.choose_fintrixx_right {
+    display: flex;
+    align-items: center;
+    gap: 0px; 
+    position: relative;
+}
+
+
+.choose_fintrixx_right_haf_circle {
+    display: flex;
+    margin-left: -50px;
+}
+
+.choose_fintrixx_right_haf_circle img {
+    width: 250px;
+    margin-left: -50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 
 /* Footer */
 footer {
