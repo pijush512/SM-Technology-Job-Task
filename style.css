@@ -83,18 +83,7 @@ nav {
   margin: 120px auto 0 auto;
   text-align: center;
 }
-/* .banner_top{
-  display: flex;
-  align-items: center;     
-  justify-content: center; 
-  gap: 10px;               
-}
-.banner_top p {
-  font-size: 16px;
-}
-.banner_top span {
-  color: #FFA500;
-} */
+
 .banner_total {
   display: flex;
   justify-content: center;
